@@ -1,0 +1,11 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: asmilk0
+  host: asmilk0
+  disk_quota: 1024M
+  services:
+  - ascleardb0
+  buildpack: java_buildpack
